@@ -1,0 +1,229 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+/*Header*/
+header{
+	width: 100%;
+	color: white;
+}
+.header{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.container-one-header{
+	background: #002673;
+	padding-top: 10%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.logo_principal{
+	width: 100%;
+	margin-left: 10%;
+
+}
+.logo_principal span {
+	font-size: 2vw;
+}
+.logo_principal .two-text{
+	font-size: 1vw;
+}
+.optionsBar{
+	text-align: right;
+	padding-right: 5%;
+}
+.optionsBar-nav {
+	text-align: left;
+	padding-left: 5%;
+}
+.container-two-header{
+	padding-top: 10%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background: #0039D6;
+}
+.optionsBar-two{
+	width: 100%;
+	text-align: center;
+}
+.boton-menu-one {
+	width: 5%;
+	border: 1px solid white;
+	padding: 3%;
+	border-radius: 8px;
+}
+.boton-menu-two {
+	width: 5%;
+	border: 1px solid white;
+	padding: 3%;
+	border-radius: 8px;
+}
+.icono{
+	margin-right: 2%;
+	width: 5%;
+	height: 1vw;
+	padding: 1%;
+	background-color: #002673;
+	border-radius: 30px;
+}
+.icono-search {
+	width: 5%;
+	height: 1vw;
+	margin-right: 5%;
+}
+
+.container-section-all{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.container-text-section-one{
+	background: #002673;
+	padding: 20% 15% 20% 15%;
+}
+.container-text-section-two{
+	background: #0039D6;
+	padding: 20% 15% 20% 15%;
+}
+.container-text-section-one h2 {
+	font-size: 6vw;
+}
+.container-text-section-one p{
+	font-size: 1.5vw;
+	text-align:justify;
+}
+.parraf-one{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.container-text-section-one a {
+	padding: 3% 10%;
+	background: #0039D6;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.5vw;
+	border-radius: 30px;
+}
+.container-text-section-two p{
+	font-size: 1.5vw;
+	text-align:justify;
+}
+.container-text-section-two h2 {
+	font-size: 6vw;
+}
+.parraf-two{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.container-text-section-two a {
+	padding: 3% 10%;
+	background: white;
+	color: #0039D6;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.5vw;
+	border-radius: 30px;
+}
+.arrows {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.arrows img{
+	width: 3%;
+	height: 2vw;
+}
+.container-arrow-left img {
+	padding: 2% 2% 2% 3%;
+	background: white;
+}
+.container-arrow-right img {
+	padding: 2% 3% 2% 2%;
+	background: white;
+}
+.container-arrow-left{
+	text-align: right;
+	background: #002673;
+	padding-bottom: 3%;
+}
+.container-arrow-right{
+	background: #0039D6;
+	padding-bottom: 3%;
+}
+
+
+/*footer*/
+footer{
+	width: 100%;
+	background: #002E80;
+}
+.footer{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	color: white;
+	padding: 5% 0 5% 0;
+}
+.column-one, .column-two, .column-tree, .column-for{
+	margin: auto;
+	width: 70%;
+}
+.column-one h3{
+	font-size: 2vw;
+	margin-bottom: 1%;
+}
+.column-one p{
+	font-size: 1.5vw;
+	margin-bottom: 3%;
+}
+.column-two h3{
+	font-size: 2vw;
+	margin-bottom: 1%;
+}
+.column-two span{
+	font-size: 1.5vw;
+}
+.column-tree span {
+	font-size: 3vw;
+	font-weight: bold;
+}
+.column-tree h5 {
+	font-size: 2.5vw;
+	margin-bottom: 2%;
+}
+.column-for h3{
+	font-size: 1.8vw;
+}
+.column-for p {
+	font-size: 1.3vw;
+	margin-bottom: 5%;
+}
+.column-for a{
+	text-decoration: none;
+	background: white;
+	padding: 2% 5%;
+	font-size: 1.3vw;
+	color: black;
+}
+.icon-footer{
+	width: 8%;
+	height: 1.5vw;
+	padding: 2% 1%;
+	background: white;
+	border-radius: 30px;
+}
+.icon-footer:not(:first-of-type){
+	margin-left: 3%;
+}
+.icon-mail, .icon-whatsapp{
+	width: 8%;
+}
+.icons{
+	margin-bottom: 2%;
+}
+.logo-footer{
+	margin-bottom: 3%;
+}
